@@ -1,19 +1,19 @@
 /* your code here */
-body{
-	background-color:springgreen;
+.price{
+	color:red;
+	font-size:25px;
 }
 .product{
-	background-color:white;
 	display:flex;
+	background-color:white;
 }
 
 
 .photo-container{
 	display:flex;
 	flex-direction:column;
-    height:70vh;
-	width:60%;
-	background-color:greenyellow;
+	justify-content:flex-row;
+	background-color:white;
 }
 .controls{
 	display:flex;
@@ -23,11 +23,18 @@ body{
 .photo-album>ul{
 	display:flex;
 	flex-direction:row;
+	list-style-type:none;
 }
-
+.photo-album>ul>li{
+	padding:2px;
+	border:1px solid black;
+	background-color:white;
+	
+}
 .photo-main>img{
 	display:flex;
 	flex-direction:row;
+	background-color:limegreen;
 }
 
 .controls>i{
@@ -36,4 +43,18 @@ body{
 
 .variant>ul{
 	display:flex;
+	list-style-type:none;
+}
+
+.product__photo{
+	background-color:white;
+}
+
+button{
+	background-color:red;
+	color:white;
+	border:2px solid red;
+	border-radius:5%;
+	padding:10px;
+	
 }
