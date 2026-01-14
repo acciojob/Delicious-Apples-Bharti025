@@ -1,1 +1,39 @@
 /* your code here */
+body{
+	background-color:springgreen;
+}
+.product{
+	background-color:white;
+	display:flex;
+}
+
+
+.photo-container{
+	display:flex;
+	flex-direction:column;
+    height:70vh;
+	width:60%;
+	background-color:greenyellow;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+}
+
+.photo-album>ul{
+	display:flex;
+	flex-direction:row;
+}
+
+.photo-main>img{
+	display:flex;
+	flex-direction:row;
+}
+
+.controls>i{
+	color:white;
+}
+
+.variant>ul{
+	display:flex;
+}
